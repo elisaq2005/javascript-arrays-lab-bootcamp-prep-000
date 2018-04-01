@@ -30,3 +30,9 @@ function prependKitten(name) {
   newAppend.unshift(name);
   return newAppend
 }
+
+function removeLastKitten() {
+  var newAppend = kittens.slice();
+  newAppend.pop();
+  return newAppend;
+}
