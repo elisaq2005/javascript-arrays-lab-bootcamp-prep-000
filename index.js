@@ -36,3 +36,9 @@ function removeLastKitten() {
   newAppend.pop();
   return newAppend;
 }
+
+function removeFirstKitten() {
+  var newAppend = kittens.slice()
+  newAppend.shift();
+  return newAppend;
+}
